@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+
+:root{
+  --primary1: hsl(34, 35%, 75%);
+  --primary2:  hsl(34, 17%, 49%);
+  --secondary1: hsl(347, 40%, 10%);
+  --secondary2:  hsl(347, 24%, 30%);
+  --grey1: hsl(0,0%,21%);
+  --grey2: hsl(0,0%,51%);
+  --grey3: hsl(0,0%,15%);
+  --grey4:  hsl(0,0%,61%);
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family:'Oswald','Helvetica', 'sans-serif';
+  background-color: var(--primary1);
+  color: var(--secondary2);
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+body {
+  
+  font-weight: 300;
+}
+
+header {
+  background-color: var(--primary2);
+  color: var(--secondary1);
+  padding: 1rem 2rem;
+  font-size: 3rem;
+}
+
+nav {
+  margin-top:1rem;
+  background-color: var(--grey2);
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+nav a {
+  text-decoration: none;
+  
+  color:var(--grey1);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+main {
+  padding: 1rem 2rem;
+}
+
+main h2 {
+  
+  font-size: 2rem;
+  
+}
+
+main p {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+ul {
+  margin: 1rem 2rem; 
+  
+  
+}
+
+main li {
+  
+  font-size: 1rem;
+}
+
+footer {
+  background-color: var(--grey4);
+  padding: 1rem 2rem;
+}
+
+footer p {
+  color: var(--grey3);
+  margin: 1rem 0;
+  font-size: 0.8rem;
+}
